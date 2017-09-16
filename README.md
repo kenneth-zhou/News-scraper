@@ -1,6 +1,6 @@
 # News-scraper
 
-News scraper that leverages the GDELT Project to download daily news articles released around the world.
+News scraper that leverages the GDELT Project to download daily news articles released around the world.  Given the high volume of daily news articles, the news scraper is parallelized.
 
 Saves individual articles locally as text files in the form of: title, index number, article url, image url, meta description, and text content.  Also downloads photos in article, if any.
 
