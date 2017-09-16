@@ -2,9 +2,9 @@
 
 News scraper that leverages the GDELT Project to download daily news articles released around the world.
 
-Saves individual articles in the form of: title, index number, article url, image url, meta description, and text content.  Also downloads article's associated photo, if any.
+Saves individual articles locally as text files in the form of: title, index number, article url, image url, meta description, and text content.  Also downloads photos in article, if any.
 
-Articles are saved as "yyyymmdd" + "index number".  If article has an associated photo, it will be saved with the same name in .jpg.
+Downloaded articles are titled "yyyymmdd" + "article's index number for that day".  If article has a photo, it will be saved with the same title in jpg format.
 
 GDELT Project: releases daily csv files containing links to millions of news articles meant to be representative of day's news.
 
